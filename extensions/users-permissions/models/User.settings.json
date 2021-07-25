@@ -59,8 +59,17 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "codes": {
-      "collection": "code"
+    "code": {
+      "type": "component",
+      "repeatable": true,
+      "component": "user-codes.code"
+    },
+    "qrs": {
+      "collection": "qr"
+    },
+    "qrCodes": {
+      "via": "users_permissions_user",
+      "collection": "qr"
     }
   }
 }
