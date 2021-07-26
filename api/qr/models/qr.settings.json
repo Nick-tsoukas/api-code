@@ -19,12 +19,9 @@
       "type": "string"
     },
     "users_permissions_user": {
+      "via": "qrCodes",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "qrCodes"
-    },
-    "imgUrl": {
-      "type": "string"
+      "model": "user"
     },
     "qrMediaLibraryImage": {
       "model": "file",
